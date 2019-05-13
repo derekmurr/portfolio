@@ -19,8 +19,16 @@
     <div class="base-grid">
       <div class="svg-container">
         <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path d="M0,50 L100,50 C100,66.6666667 91.3333333,75 74,75 C48,75 0,75 0,100 L0,50 Z" id="section-1-top"
-            transform="translate(50.000000, 75.000000) rotate(-180.000000) translate(-50.000000, -75.000000) " class="polygon-orange"></path>
+          <defs>
+            <linearGradient id="front-gradient">
+              <stop class="start" offset="0%" />
+              <stop class="left-margin" offset="7%" />
+              <stop class="right-margin" offset="93%" />
+              <stop class="end" offset="100%" />
+            </linearGradient>
+          </defs>
+          <path id="ribbon-start" class="polygon-dark" d="M75,35c16.7,3.3,25,8.3,25,15s0,23.3,0,50H75V35z" />
+          <path id="section-1-top" class="polygon-section-1" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
 
@@ -33,12 +41,9 @@
 
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path
-            d="M0,0 L33,0 C77.6666667,26.2626263 100,42.9292929 100,50 C100,57.0707071 100,73.7373737 100,100 L66,100 C22,79.2929293 0,62.6262626 0,50 C8.36507376e-16,37.3737374 8.36507376e-16,20.7070707 0,0 Z"
-            id="section-1-2-transition" class="polygon-dark"></path>
-          <path d="M0,0 L100,0 C100,16.6666667 91.3333333,25 74,25 C48,25 0,25 0,50 L0,0 Z" id="section-1-bottom" class="polygon-orange"></path>
-          <path d="M0,50 L100,50 C100,66.6666667 91.3333333,75 74,75 C48,75 0,75 0,100 L0,50 Z" id="section-2-top"
-            transform="translate(50.000000, 75.000000) rotate(-180.000000) translate(-50.000000, -75.000000) " class="polygon-blue"></path>
+          <path id="section-1-2-transition" class="polygon-dark" d="M0,0h33c44.7,26.3,67,42.9,67,50s0,23.7,0,50H66C22,79.3,0,62.6,0,50S0,20.7,0,0z" />
+          <path id="section-1-bottom" class="polygon-section-1" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
+          <path id="section-2-top" class="polygon-section-2" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
 
@@ -52,7 +57,8 @@
 
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path d="M0,0 L100,0 C100,16.6666667 91.3333333,25 74,25 C48,25 0,25 0,50 L0,0 Z" id="section-2-bottom" class="polygon-blue"></path>
+          <path id="ribbon-end" class="polygon-dark" d="M25,65C8.3,61.7,0,56.7,0,50S0,26.7,0,0h25V65z" />
+          <path id="section-2-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
         </svg>
       </div>
     </div>

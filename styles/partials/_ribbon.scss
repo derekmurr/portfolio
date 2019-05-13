@@ -1,19 +1,36 @@
 .section-1 {
-  background-color: orange;
+  background-color: $banner-dark-green;
+  background: linear-gradient(to right, lighten($banner-dark-green, 10), $banner-dark-green 7%, $banner-dark-green 93%, darken($banner-dark-green, 10));
 }
 
 .section-2 {
-  background-color: darkcyan;
+  background-color: $banner-medium-green;
 }
 
-.polygon-orange {
-  fill: orange;
+.polygon-section-1 {
+  fill: url("#front-gradient");
 }
 
 .polygon-dark {
-  fill: orangered;
+  fill: $banner-dark-blue;
 }
 
-.polygon-blue {
-  fill: darkcyan;
+.start {
+  stop-color: lighten($banner-dark-green, 10);
+}
+
+.left-margin {
+  stop-color: $banner-dark-green;
+}
+
+.right-margin {
+  stop-color: $banner-dark-green;
+}
+
+.end {
+  stop-color: darken($banner-dark-green, 10);
+}
+
+.polygon-section-2 {
+  fill: $banner-medium-green;
 }
