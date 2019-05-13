@@ -20,11 +20,37 @@
       <div class="svg-container">
         <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
           <defs>
-            <linearGradient id="front-gradient">
-              <stop class="start" offset="0%" />
-              <stop class="left-margin" offset="7%" />
-              <stop class="right-margin" offset="93%" />
-              <stop class="end" offset="100%" />
+            <radialGradient id="background-gradient">
+              <stop class="start-bg" offset="0%" />
+              <stop class="end-bg" offset="100%" />
+            </radialGradient>
+
+            <linearGradient id="gradient-s1">
+              <stop class="start-1" offset="0%" />
+              <stop class="left-margin-1" offset="7%" />
+              <stop class="right-margin-1" offset="93%" />
+              <stop class="end-1" offset="100%" />
+            </linearGradient>
+
+            <linearGradient id="gradient-s2">
+              <stop class="start-2" offset="0%" />
+              <stop class="left-margin-2" offset="7%" />
+              <stop class="right-margin-2" offset="93%" />
+              <stop class="end-2" offset="100%" />
+            </linearGradient>
+
+            <linearGradient id="gradient-s3">
+              <stop class="start-3" offset="0%" />
+              <stop class="left-margin-3" offset="7%" />
+              <stop class="right-margin-3" offset="93%" />
+              <stop class="end-3" offset="100%" />
+            </linearGradient>
+
+            <linearGradient id="gradient-s4">
+              <stop class="start-4" offset="0%" />
+              <stop class="left-margin-4" offset="7%" />
+              <stop class="right-margin-4" offset="93%" />
+              <stop class="end-4" offset="100%" />
             </linearGradient>
           </defs>
           <path id="ribbon-start" class="polygon-dark" d="M75,35c16.7,3.3,25,8.3,25,15s0,23.3,0,50H75V35z" />
@@ -57,8 +83,42 @@
 
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path id="ribbon-end" class="polygon-dark" d="M25,65C8.3,61.7,0,56.7,0,50S0,26.7,0,0h25V65z" />
+          <path id="section-2-3-transition" class="polygon-dark"
+            d="M0,0h33c44.7,26.3,67,42.9,67,50s0,23.7,0,50H66C22,79.3,0,62.6,0,50S0,20.7,0,0z" />
           <path id="section-2-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
+          <path id="section-3-top" class="polygon-section-3" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
+        </svg>
+      </div>
+
+      <section class="content-section section-3">
+        <div class="wrapper">
+          <h2>Section 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eum consectetur autem deserunt harum. Enim consequatur omnis nesciunt doloremque perspiciatis sed a quisquam sequi impedit.</p>
+        </div>
+      </section>
+
+      <div class="svg-container">
+        <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path id="section-3-4-transition" class="polygon-dark"
+            d="M0,0h33c44.7,26.3,67,42.9,67,50s0,23.7,0,50H66C22,79.3,0,62.6,0,50S0,20.7,0,0z" />
+          <path id="section-3-bottom" class="polygon-section-3" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
+          <path id="section-4-top" class="polygon-section-4" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
+        </svg>
+      </div>
+
+      <section class="content-section section-4">
+        <div class="wrapper">
+          <h2>Section 4</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eum consectetur autem deserunt harum. Enim consequatur omnis nesciunt doloremque perspiciatis sed a quisquam sequi impedit.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloribus cumque dolores molestias minima
+            debitis voluptatum aperiam alias ullam quis.</p>
+        </div>
+      </section>
+
+      <div class="svg-container">
+        <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path id="ribbon-end" class="polygon-dark" d="M25,65C8.3,61.7,0,56.7,0,50S0,26.7,0,0h25V65z" />
+          <path id="section-4-bottom" class="polygon-section-4" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
         </svg>
       </div>
     </div>

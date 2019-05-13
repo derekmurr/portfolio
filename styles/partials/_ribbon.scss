@@ -1,36 +1,64 @@
+.polygon-dark { fill: url("#background-gradient"); }
+
+.start-bg { stop-color: $banner-dark-purple; }
+
+.end-bg { stop-color: darken($banner-dark-purple, 15); }
+
 .section-1 {
-  background-color: $banner-dark-green;
-  background: linear-gradient(to right, lighten($banner-dark-green, 10), $banner-dark-green 7%, $banner-dark-green 93%, darken($banner-dark-green, 10));
+  background: linear-gradient(to right, lighten($banner-light-purple, 10), $banner-light-purple 7%, $banner-light-purple 93%, darken($banner-light-purple, 10));
 }
+
+.polygon-section-1 { fill: url("#gradient-s1"); }
+
+.start-1 { stop-color: lighten($banner-light-purple, 10); }
+
+.left-margin-1 { stop-color: $banner-light-purple; }
+
+.right-margin-1 { stop-color: $banner-light-purple; }
+
+.end-1 { stop-color: darken($banner-light-purple, 10); }
+
 
 .section-2 {
-  background-color: $banner-medium-green;
+  background: linear-gradient(to right, lighten($banner-orange, 10), $banner-orange 7%, $banner-orange 93%, darken($banner-orange, 10));
 }
 
-.polygon-section-1 {
-  fill: url("#front-gradient");
+.polygon-section-2 { fill: url("#gradient-s2"); }
+
+.start-2 { stop-color: lighten($banner-orange, 10); }
+
+.left-margin-2 { stop-color: $banner-orange; }
+
+.right-margin-2 { stop-color: $banner-orange; }
+
+.end-2 { stop-color: darken($banner-orange, 10); }
+
+
+.section-3 {
+  background: linear-gradient(to right, lighten($banner-light-orange, 10), $banner-light-orange 7%, $banner-light-orange 93%, darken($banner-light-orange, 10));
 }
 
-.polygon-dark {
-  fill: $banner-dark-blue;
+.polygon-section-3 { fill: url("#gradient-s3"); }
+
+.start-3 { stop-color: lighten($banner-light-orange, 10); }
+
+.left-margin-3 { stop-color: $banner-light-orange; }
+
+.right-margin-3 { stop-color: $banner-light-orange; }
+
+.end-3 { stop-color: darken($banner-light-orange, 10); }
+
+
+.section-4 {
+  background: linear-gradient(to right, lighten($banner-teal, 10), $banner-teal 7%, $banner-teal 93%, darken($banner-teal, 10));
 }
 
-.start {
-  stop-color: lighten($banner-dark-green, 10);
-}
+.polygon-section-4 { fill: url("#gradient-s4"); }
 
-.left-margin {
-  stop-color: $banner-dark-green;
-}
+.start-4 { stop-color: lighten($banner-teal, 10); }
 
-.right-margin {
-  stop-color: $banner-dark-green;
-}
+.left-margin-4 { stop-color: $banner-teal; }
 
-.end {
-  stop-color: darken($banner-dark-green, 10);
-}
+.right-margin-4 { stop-color: $banner-teal; }
 
-.polygon-section-2 {
-  fill: $banner-medium-green;
-}
+.end-4 { stop-color: darken($banner-teal, 10); }
