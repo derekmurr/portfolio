@@ -11,7 +11,23 @@
 <body>
   <header>
     <div class="wrapper">
-      <h1>This is the header</h1>
+      <div class="topline-wrapper">
+        <div class="logo">
+          <svg version="1.1" id="logo-svg" class="logo-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 108 89.7" style="enable-background:new 0 0 108 89.7;" xml:space="preserve">
+            <path d="M75.9,37.9V0L38,44.9L0,0v89.7h32.1h43.8H108V0L75.9,37.9z M65.9,49.8L40.6,79.7h-19l44.3-52.4V49.8z M10,27.3l21.4,25.3L10,77.9V27.3z M98,79.7H75.9h-10H53.6l17.8-21l4.5-5.3l0,0L98,27.3V79.7z" />
+          </svg>
+        </div>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <h1>Derek Murr</h1>
+      <h3>Front-end developer / designer</h3>
     </div>
   </header>
 
@@ -58,24 +74,32 @@
         </svg>
       </div>
 
-      <section class="content-section section-1">
+      <section id="about" class="content-section section-1">
         <div class="wrapper">
-          <h2>Section 1</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eum consectetur autem deserunt harum. Enim consequatur omnis nesciunt doloremque perspiciatis sed a quisquam sequi impedit.</p>
+          <div class="intro-grid">
+            <div class="intro-headshot">
+              <img src="./assets/headshot.jpg" alt="">
+            </div>
+            
+            <div class="intro-text">
+              <h2>Hello!</h2>
+              <p>Hello yes hi. I’m Derek, a front-end developer and designer based in sunny Toronto, Canada. I’m passionate about building things that are useful, beautiful and accessible, using code that's clean, performant and elegant. If you scroll down a bit, you’ll see a few projects I’ve worked on recently that I’m proud of and excited to share. And below that, you can see how to get in touch – please do!</p>
+            </div>
+          </div>
         </div>
       </section>
 
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path id="section-1-2-transition" class="polygon-dark" d="M0,0h33c44.7,26.3,67,42.9,67,50s0,23.7,0,50H66C22,79.3,0,62.6,0,50S0,20.7,0,0z" />
+          <path id="section-1-2-transition" class="polygon-dark" d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
           <path id="section-1-bottom" class="polygon-section-1" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
           <path id="section-2-top" class="polygon-section-2" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
 
-      <section class="content-section section-2">
+      <section id="work" class="content-section section-2">
         <div class="wrapper">
-          <h2>Section 2</h2>
+          <h2>Work</h2>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eum consectetur autem deserunt harum. Enim consequatur omnis nesciunt doloremque perspiciatis sed a quisquam sequi impedit.</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloribus cumque dolores molestias minima debitis voluptatum aperiam alias ullam quis.</p>
         </div>
@@ -84,15 +108,15 @@
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
           <path id="section-2-3-transition" class="polygon-dark"
-            d="M0,0h33c44.7,26.3,67,42.9,67,50s0,23.7,0,50H66C22,79.3,0,62.6,0,50S0,20.7,0,0z" />
+            d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
           <path id="section-2-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
           <path id="section-3-top" class="polygon-section-3" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
 
       <section class="content-section section-3">
-        <div class="wrapper">
-          <h2>Section 3</h2>
+        <div id="Skills" class="wrapper">
+          <h2>Skills</h2>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eum consectetur autem deserunt harum. Enim consequatur omnis nesciunt doloremque perspiciatis sed a quisquam sequi impedit.</p>
         </div>
       </section>
@@ -100,18 +124,36 @@
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
           <path id="section-3-4-transition" class="polygon-dark"
-            d="M0,0h33c44.7,26.3,67,42.9,67,50s0,23.7,0,50H66C22,79.3,0,62.6,0,50S0,20.7,0,0z" />
+            d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
           <path id="section-3-bottom" class="polygon-section-3" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
           <path id="section-4-top" class="polygon-section-4" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
 
-      <section class="content-section section-4">
+      <section id="contact" class="content-section section-4">
         <div class="wrapper">
-          <h2>Section 4</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eum consectetur autem deserunt harum. Enim consequatur omnis nesciunt doloremque perspiciatis sed a quisquam sequi impedit.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum doloribus cumque dolores molestias minima
-            debitis voluptatum aperiam alias ullam quis.</p>
+          <div class="half-grid">
+            <div>
+              <h2>Contact</h2>
+              <p>I am on the usual social things; here they are. Or just drop me a line with the handy form here!</p>
+              <ul class="social-links">
+                <li><a href="#">Tw</a></li>
+                <li><a href="#">In</a></li>
+                <li><a href="#">Li</a></li>
+              </ul>
+            </div>
+
+            
+            <form action="" class="contact-form">
+              <input type="text" id="name" class="form-input">
+              <label for="name" class="form-input-label">Name</label>
+              <input type="email" id="email" class="form-input">
+              <label for="email" class="form-input-label"></label>
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+              <label for="message" class="form-message-label"></label>
+              <button type="submit" class="form-button">Send</button>
+            </form>
+          </div>
         </div>
       </section>
 

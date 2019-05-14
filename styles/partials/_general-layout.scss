@@ -16,3 +16,44 @@ footer,
   width: 100%;
   height: 10rem;
 }
+
+.topline-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  margin: 1rem 0 0 4rem;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+  color: $banner-light-purple;
+}
+
+.main-nav a:active {
+  color: $banner-dark-purple;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 1.5rem;
+}
+
+.half-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+}
