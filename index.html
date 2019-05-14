@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio layout test</title>
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Source+Sans+Pro:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
@@ -118,7 +120,16 @@
       <section class="content-section section-3">
         <div id="Skills" class="wrapper">
           <h2>Skills</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eum consectetur autem deserunt harum. Enim consequatur omnis nesciunt doloremque perspiciatis sed a quisquam sequi impedit.</p>
+          <p>I am well-versed in the fundamental building blocks of the web: accessibility-focused HTML5 and CSS3/Sass, as well as JavaScript, jQuery, React and Firebase. This is on top of a decade of graphic design experience.</p>
+          <ul class="skills-list">
+            <li><i class="fab fa-html5" aria-hidden="true"></i><span class="visuallyHidden">HTML5</span></li>
+            <li><i class="fab fa-css3-alt" aria-hidden="true"></i><span class="visuallyHidden">CSS3</span></li>
+            <li><i class="fab fa-sass" aria-hidden="true"></i><span class="visuallyHidden">SASS</span></li>
+            <li><i class="fab fa-js-square" aria-hidden="true"></i><span class="visuallyHidden">JavaScript</span></li>
+            <li><i class="fab fa-react" aria-hidden="true"></i><span class="visuallyHidden">React</span></li>
+            <li><i class="fab fa-gulp" aria-hidden="true"></i><span class="visuallyHidden">Gulp</span></li>
+          </ul>
+
         </div>
       </section>
 
@@ -136,22 +147,26 @@
           <div class="half-grid">
             <div>
               <h2>Contact</h2>
-              <p>I am on the usual social things; here they are. Or just drop me a line with the handy form here!</p>
+              <p>I am on the usual social things; here they are.</p>
               <ul class="social-links">
-                <li><a href="#">Tw</a></li>
-                <li><a href="#">In</a></li>
-                <li><a href="#">Li</a></li>
+                <li><a href="https://twitter.com/derekmurr"><i class="fab fa-twitter" aria-hidden="true"></i><span class="visuallyHidden">Twitter</span></a></li>
+                <li><a href="https://www.instagram.com/derekmurr/"><i class="fab fa-instagram" aria-hidden="true"></i><span class="visuallyHidden">Instagram</span></a></li>
+                <li><a href="https://www.linkedin.com/in/derek-murr-3449412/"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="visuallyHidden">LinkedIn</span></a></li>
+                <li><a href="https://github.com/derekmurr"><i class="fab fa-github" aria-hidden="true"></i><span class="visuallyHidden">GitHub</span></a></li>
               </ul>
+              <p>Or just drop me a line with the handy form here! Either way, thank you for stopping by; I would be delighted to hear from you.</p>
             </div>
 
             
             <form action="" class="contact-form">
               <input type="text" id="name" class="form-input">
-              <label for="name" class="form-input-label">Name</label>
+              <label for="name" class="form-input-label">Your name</label>
+
               <input type="email" id="email" class="form-input">
-              <label for="email" class="form-input-label"></label>
-              <textarea name="message" id="message" cols="30" rows="10"></textarea>
-              <label for="message" class="form-message-label"></label>
+              <label for="email" class="form-input-label">Your email address</label>
+
+              <textarea name="message" id="message" class="form-message"></textarea>
+              <label for="message" class="form-message-label">Your message</label>
               <button type="submit" class="form-button">Send</button>
             </form>
           </div>
