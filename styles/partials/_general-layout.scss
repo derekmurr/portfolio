@@ -15,6 +15,7 @@ footer,
 .svg-container {
   width: 100%;
   height: 10rem;
+  margin: -1px 0 -1px;
 }
 
 .topline-wrapper {
@@ -58,6 +59,44 @@ footer,
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-image,
+.project-desc {
+  flex-basis: 47.5%;
+}
+
+.project-image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-link {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: $banner-orange;
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+  padding: .5rem 1rem;
+  margin-right: 2rem;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.project-link:focus,
+.project-link:hover {
+  background-color: lighten($banner-orange, 10%);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.project-link:active {
+  background-color: darken($banner-orange, 30%);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .skills-list {
