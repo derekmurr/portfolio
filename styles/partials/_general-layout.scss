@@ -32,6 +32,8 @@ footer,
   list-style: none;
   padding: 0;
   margin: 0;
+  height: 100%;
+  align-items: flex-end;
 }
 
 .main-nav a {
@@ -43,6 +45,7 @@ footer,
 .main-nav a:hover,
 .main-nav a:focus {
   color: $banner-light-purple;
+  text-decoration: underline;
 }
 
 .main-nav a:active {
@@ -77,14 +80,22 @@ footer,
   overflow: hidden;
 }
 
+.project-links-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .project-link {
+  display: block;
+  flex-grow: 1;
   background-color: rgba(255, 255, 255, 0.8);
   color: $banner-orange;
   text-decoration: none;
   font-family: 'Bree Serif', serif;
   padding: .5rem 1rem;
-  margin-right: 2rem;
+  margin: 0 2rem 1rem 0;
   border-radius: 10px;
+  text-align: center;
   white-space: nowrap;
 }
 
@@ -165,6 +176,13 @@ footer,
   padding: .75em;
   color: rgba(255, 255, 255, 1);
   font-size: .95rem;
+}
+
+.form-input:hover,
+.form-input:focus,
+.form-message:hover,
+.form-message:focus {
+  border: 2px solid $banner-dark-purple;
 }
 
 .form-message {
