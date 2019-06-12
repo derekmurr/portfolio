@@ -88,8 +88,8 @@ footer,
 .project-link {
   display: block;
   flex-grow: 1;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: $banner-orange;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: $banner-dark-purple;
   text-decoration: none;
   font-family: 'Bree Serif', serif;
   padding: .5rem 1rem;
@@ -101,8 +101,8 @@ footer,
 
 .project-link:focus,
 .project-link:hover {
-  background-color: lighten($banner-orange, 10%);
-  color: rgba(255, 255, 255, 0.8);
+  background-color: $banner-dark-purple;
+  color: rgba(255, 255, 255, 1);
 }
 
 .project-link:active {
@@ -191,6 +191,7 @@ footer,
 
 .form-input-label,
 .form-message-label {
+  color: #ffffff;
   margin: 0.5rem 0 1.5rem;
   font-size: 1rem;
   letter-spacing: 0.5px;

@@ -6,6 +6,10 @@ body {
 }
 
 .content-section {
+  color: $banner-dark-purple;
+}
+
+.white-text {
   color: white;
 }
 
@@ -16,6 +20,7 @@ h4,
 h5,
 h6 {
   font-family: 'Bree Serif', serif;
+  color: $banner-dark-purple;
 }
 
 h1 {
