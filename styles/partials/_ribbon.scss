@@ -20,33 +20,33 @@
 
 
 .section-2 {
-  background: linear-gradient(to right, lighten($banner-orange, 10), $banner-orange 7%, $banner-orange 93%, darken($banner-orange, 10));
+  background: linear-gradient(to right, lighten($banner-yellow, 15), $banner-yellow 7%, $banner-yellow 93%, darken($banner-yellow, 15));
 }
 
 .polygon-section-2 { fill: url("#gradient-s2"); }
 
-.start-2 { stop-color: lighten($banner-orange, 10); }
+.start-2 { stop-color: lighten($banner-yellow, 15); }
 
-.left-margin-2 { stop-color: $banner-orange; }
+.left-margin-2 { stop-color: $banner-yellow; }
 
-.right-margin-2 { stop-color: $banner-orange; }
+.right-margin-2 { stop-color: $banner-yellow; }
 
-.end-2 { stop-color: darken($banner-orange, 10); }
+.end-2 { stop-color: darken($banner-yellow, 15); }
 
 
 .section-3 {
-  background: linear-gradient(to right, lighten($banner-light-orange, 10), $banner-light-orange 7%, $banner-light-orange 93%, darken($banner-light-orange, 10));
+  background: linear-gradient(to right, lighten($banner-orange, 15), $banner-orange 7%, $banner-orange 93%, darken($banner-orange, 15));
 }
 
 .polygon-section-3 { fill: url("#gradient-s3"); }
 
-.start-3 { stop-color: lighten($banner-light-orange, 10); }
+.start-3 { stop-color: lighten($banner-orange, 15); }
 
-.left-margin-3 { stop-color: $banner-light-orange; }
+.left-margin-3 { stop-color: $banner-orange; }
 
-.right-margin-3 { stop-color: $banner-light-orange; }
+.right-margin-3 { stop-color: $banner-orange; }
 
-.end-3 { stop-color: darken($banner-light-orange, 10); }
+.end-3 { stop-color: darken($banner-orange, 15); }
 
 
 .section-4 {
