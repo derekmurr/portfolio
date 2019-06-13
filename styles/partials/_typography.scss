@@ -21,22 +21,31 @@ h5,
 h6 {
   font-family: 'Bree Serif', serif;
   color: $banner-dark-purple;
+  line-height: 1.1;
 }
 
 h1 {
   margin: 4rem 0 0;
-}
-
-h3 {
-  margin: 1rem 0 0;
+  font-size: 2.99rem;
 }
 
 h2 {
   margin: 0 0 1.5rem 0;
+  font-size: 2.49rem;
+}
+
+h3 {
+  margin: 1rem 0 0;
+  font-size: 2.07rem;
+}
+
+h4 {
+  font-size: 1.73rem;
 }
 
 p {
   margin: 0 0 1.5rem 0;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
@@ -47,14 +56,8 @@ footer p {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.project-title {
-  margin: 0;
-  font-size: 2.1rem;
-}
-
 .project-tools {
   margin: .5rem 0;
-  font-size: 1.2rem;
 }
 
 .project-text {

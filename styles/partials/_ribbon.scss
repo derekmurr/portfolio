@@ -34,19 +34,34 @@
 .end-2 { stop-color: darken($banner-yellow, 15); }
 
 
-.section-3 {
+.section-2-a {
   background: linear-gradient(to right, lighten($banner-orange, 15), $banner-orange 7%, $banner-orange 93%, darken($banner-orange, 15));
+}
+
+.polygon-section-2-a { fill: url("#gradient-s2a"); }
+
+.start-2-a { stop-color: lighten($banner-orange, 15); }
+
+.left-margin-2-a { stop-color: $banner-orange; }
+
+.right-margin-2-a { stop-color: $banner-orange; }
+
+.end-2-a { stop-color: darken($banner-orange, 15); }
+
+
+.section-3 {
+  background: linear-gradient(to right, lighten($banner-light-purple, 10), $banner-light-purple 7%, $banner-light-purple 93%, darken($banner-light-purple, 10));
 }
 
 .polygon-section-3 { fill: url("#gradient-s3"); }
 
-.start-3 { stop-color: lighten($banner-orange, 15); }
+.start-3 { stop-color: lighten($banner-light-purple, 10); }
 
-.left-margin-3 { stop-color: $banner-orange; }
+.left-margin-3 { stop-color: $banner-light-purple; }
 
-.right-margin-3 { stop-color: $banner-orange; }
+.right-margin-3 { stop-color: $banner-light-purple; }
 
-.end-3 { stop-color: darken($banner-orange, 15); }
+.end-3 { stop-color: darken($banner-light-purple, 10); }
 
 
 .section-4 {

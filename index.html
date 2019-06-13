@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio layout test</title>
+  <title>Derek Murr | Front-end developer | Designer</title>
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Source+Sans+Pro:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -58,6 +58,13 @@
               <stop class="end-2" offset="100%" />
             </linearGradient>
 
+            <linearGradient id="gradient-s2a">
+              <stop class="start-2-a" offset="0%" />
+              <stop class="left-margin-2-a" offset="7%" />
+              <stop class="right-margin-2-a" offset="93%" />
+              <stop class="end-2-a" offset="100%" />
+            </linearGradient>
+
             <linearGradient id="gradient-s3">
               <stop class="start-3" offset="0%" />
               <stop class="left-margin-3" offset="7%" />
@@ -84,8 +91,8 @@
           </div>
           
           <div class="intro-text">
-            <h2 class="white-text">Welcome!</h2>
-            <p class="white-text">Hello! I’m Derek, a front-end developer and designer based in sunny Toronto, Canada. I’m passionate about building things that are useful, beautiful and accessible, using code that's clean, performant and elegant. I like to think my coding and design backgrounds reinforce each other: they’re both forms of problem-solving.</p>
+            <h2 class="white-text">Hello!</h2>
+            <p class="white-text">I’m Derek, a front-end developer and designer based in sunny Toronto, Canada. I’m passionate about building things that are useful, beautiful and accessible, using code that's clean, performant and elegant. I like to think my coding and design backgrounds reinforce each other: they’re both forms of problem-solving.</p>
             <p class="white-text">When I’m not typing away in VS Code, I can usually be found exploring cities,  watching low-budget movies, thinking about pancakes, or running unusually long distances for fun (while thinking about pancakes).</p>
             <p class="white-text">If you scroll down a bit, you’ll see a few projects I’ve worked on recently that I’m proud of and excited to share. And below that, you can see how to get in touch – if you’d like to work together or just want to chat, I’d love to hear from you. Thanks for stopping by!</p>
           </div>
@@ -103,9 +110,6 @@
       <section id="work" class="content-section section-2">
         <div class="wrapper">
           <div class="project-wrapper">
-            <div class="project-image">
-              <img src="./assets/work-bl.jpg" alt="Screenshot of the Brite Lites app">
-            </div>
             <div class="project-desc">
               <h3 class="project-title">Project: Brite Lites</h3>
               <h4 class="project-tools">ReactJS / JavaScript / Firebase / HTML / CSS</h4>
@@ -114,6 +118,9 @@
                 <a href="https://brite-lites-8132a.firebaseapp.com/" target="_blank" class="project-link">See it here!</a>
                 <a href="https://github.com/derekmurr/derek-murr-project-5" target="_blank" class="project-link">GitHub repo</a>
               </div>
+            </div>
+            <div class="project-image">
+              <img src="./assets/work-bl.jpg" alt="Screenshot of the Brite Lites app">
             </div>
           </div>
         </div>
@@ -124,11 +131,40 @@
           <path id="section-work1-work2-transition" class="polygon-dark"
             d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
           <path id="section-2-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
+          <path id="section-2-top" class="polygon-section-2-a" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
+        </svg>
+      </div>
+
+      <section id="work2" class="content-section section-2-a">
+        <div class="wrapper">
+          <div class="project-wrapper">
+            <div class="project-image">
+              <img src="./assets/work-twm.jpg" alt="Screenshot of The Wise Mist app">
+            </div>
+            <div class="project-desc">
+              <h3 class="project-title white-text">Project: The Wise Mist</h3>
+              <h4 class="project-tools white-text">ReactJS / JavaScript / HTML / CSS</h4>
+              <p class="project-text white-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium eaque odio minima quaerat ut beatae soluta nobis non incidunt temporibus. Quo iure rerum eum odio unde expedita, ducimus sed dicta?</p>
+              <div class="project-links-container">
+                <a href="https://thewisestmist.github.io/theWiseMist/" target="_blank" class="project-link project-link-white">See it here!</a>
+                <a href="https://github.com/thewisestmist/theWiseMist" target="_blank" class="project-link project-link-white">GitHub
+                  repo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="svg-container">
+        <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path id="section-work1-work2-transition" class="polygon-dark"
+            d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
+          <path id="section-2-bottom" class="polygon-section-2-a" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
           <path id="section-2-top" class="polygon-section-2" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
 
-      <section id="work2" class="content-section section-2">
+      <section id="work3" class="content-section section-2">
         <div class="wrapper">
           <div class="project-wrapper">
             <div class="project-desc">
@@ -149,26 +185,26 @@
 
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path id="section-work2-work3-transition" class="polygon-dark"
+          <path id="section-work3-work4-transition" class="polygon-dark"
             d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
-          <path id="section-2-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
-          <path id="section-2-top" class="polygon-section-2" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
+          <path id="section-3-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
+          <path id="section-3-top" class="polygon-section-2-a" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
       
-      <section id="work3" class="content-section section-2">
+      <section id="work4" class="content-section section-2-a">
         <div class="wrapper">
           <div class="project-wrapper">
             <div class="project-image">
               <img src="./assets/work-tsg.jpg" alt="Screenshot of the Type Scale Generator app">
             </div>
             <div class="project-desc">
-              <h3 class="project-title">Project: Type Scale Generator</h3>
-              <h4 class="project-tools">JQuery / JavaScript / HTML / CSS</h4>
-              <p class="project-text">A handy tool to generate typographic scales, so developers can make projects that are visually harmonious without needing design training. Choose a scale and a font (dynamically loaded from Google Fonts), and the generator will calculate the sizes for all heading levels, body copy and small text, and allow the users to copy the CSS for their own use.</p>
+              <h3 class="project-title white-text">Project: Type Scale Generator</h3>
+              <h4 class="project-tools white-text">JQuery / JavaScript / HTML / CSS</h4>
+              <p class="project-text white-text">A handy tool to generate typographic scales, so developers can make projects that are visually harmonious without needing design training. Choose a scale and a font (dynamically loaded from Google Fonts), and the generator will calculate the sizes for all heading levels, body copy and small text, and allow the users to copy the CSS for their own use.</p>
               <div class="project-links-container">
-                <a href="./tsg/" target="_blank" class="project-link">See it here!</a>
-                <a href="https://github.com/derekmurr/derek-murr-project-three" target="_blank" class="project-link">GitHub repo</a>
+                <a href="./tsg/" target="_blank" class="project-link project-link-white">See it here!</a>
+                <a href="https://github.com/derekmurr/derek-murr-project-three" target="_blank" class="project-link project-link-white">GitHub repo</a>
               </div>
             </div>
           </div>
@@ -177,14 +213,14 @@
 
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path id="section-work3-work4-transition" class="polygon-dark"
+          <path id="section-work4-work5-transition" class="polygon-dark"
             d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
-          <path id="section-2-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
-          <path id="section-2-top" class="polygon-section-2" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
+          <path id="section-4-bottom" class="polygon-section-2-a" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
+          <path id="section-4-top" class="polygon-section-2" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
       
-      <section id="work4" class="content-section section-2">
+      <section id="work5" class="content-section section-2">
         <div class="wrapper">
           <div class="project-wrapper">
             <div class="project-desc">
@@ -205,10 +241,10 @@
       
       <div class="svg-container">
         <svg width='100%' height='100%' viewBox="0 0 100 100" preserveAspectRatio="none">
-          <path id="section-2-3-transition" class="polygon-dark"
+          <path id="section-5-5-transition" class="polygon-dark"
             d="M0,1h33c44.7,26.3,67,41.9,67,49s0,22.7,0,49H66C22,78.3,0,62.6,0,50S0,21.7,0,1z" />
-          <path id="section-2-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
-          <path id="section-3-top" class="polygon-section-3" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
+          <path id="section-5-bottom" class="polygon-section-2" d="M0,0h100c0,16.7-8.7,25-26,25C48,25,0,25,0,50V0z" />
+          <path id="section-5-top" class="polygon-section-3" d="M100,100H0c0-16.7,8.7-25,26-25c26,0,74,0,74-25V100z" />
         </svg>
       </div>
 
@@ -216,8 +252,8 @@
         <div id="Skills" class="wrapper">
           <div class="skill-wrapper">
             <div class="skillz">
-              <h2>Skills</h2>
-              <ul class="skills-list">
+              <h3 class="white-text">Skills</h3>
+              <ul class="skills-list white-text">
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>JavaScript</li>
@@ -228,8 +264,8 @@
               </ul>
             </div>
             <div class="toolz">
-              <h2>Tools</h2>
-              <ul class="skills-list">
+              <h3 class="white-text">Tools</h3>
+              <ul class="skills-list white-text">
                 <li>Git & GitHub</li>
                 <li>Sass</li>
                 <li>Firebase</li>
