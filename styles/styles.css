@@ -233,7 +233,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.73rem;
+  font-size: 1.4rem;
 }
 
 p {
@@ -305,6 +305,13 @@ header .wrapper {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+a,
+input,
+button {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .main-nav a {
@@ -411,11 +418,6 @@ header .wrapper {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.skillz,
-.toolz {
-  position: relative;
 }
 
 .skills-list {
@@ -684,7 +686,7 @@ header .wrapper {
     font-size: 1.44rem;
   }
   h4 {
-    font-size: 1.20rem;
+    font-size: 1.05rem;
   }
 }
 

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="./favicon.ico">
 </head>
 
 <body>
@@ -144,7 +145,7 @@
             <div class="project-desc">
               <h3 class="project-title white-text">Project: The Wise Mist</h3>
               <h4 class="project-tools white-text">ReactJS / JavaScript / HTML / CSS</h4>
-              <p class="project-text white-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium eaque odio minima quaerat ut beatae soluta nobis non incidunt temporibus. Quo iure rerum eum odio unde expedita, ducimus sed dicta?</p>
+              <p class="project-text white-text">An agency-style group project: as part of a team of four, we were tasked with building a game with "the 1980s in space" aesthetics where the player must navigate a maze to reach The Wise Mist, an all-knowing agender glow cloud that dispenses fortunes. With a brief like that, how could we not rise to the occasion? In less than a week we'd built a vaporwave dungeon-crawler in React that gets wisdom from a call to the Advice API.</p>
               <div class="project-links-container">
                 <a href="https://thewisestmist.github.io/theWiseMist/" target="_blank" class="project-link project-link-white">See it here!</a>
                 <a href="https://github.com/thewisestmist/theWiseMist" target="_blank" class="project-link project-link-white">GitHub
@@ -258,9 +259,9 @@
                 <li>CSS3</li>
                 <li>JavaScript</li>
                 <li>ReactJS</li>
+                <li>JQuery</li>
                 <li>Responsive design</li>
                 <li>Web Accessibility</li>
-                <li>Uh, something</li>
               </ul>
             </div>
             <div class="toolz">
@@ -305,14 +306,14 @@
             </div>
 
             
-            <form action="" class="contact-form">
-              <input type="text" id="name" class="form-input">
+            <form method="POST" action="http://www.focuspocus.io/magic/a723fb896031b194333c56ac83e938ef" class="contact-form">
+              <input type="text" id="name" name="name" class="form-input" required>
               <label for="name" class="form-input-label">Your name</label>
 
-              <input type="email" id="email" class="form-input">
+              <input type="email" id="email" name="email" class="form-input" required>
               <label for="email" class="form-input-label">Your email address</label>
 
-              <textarea name="message" id="message" class="form-message"></textarea>
+              <textarea name="message" id="message" name="message" class="form-message" required></textarea>
               <label for="message" class="form-message-label">Your message</label>
               <button type="submit" class="form-button">Send</button>
             </form>
