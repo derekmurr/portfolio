@@ -202,7 +202,24 @@ body {
   color: #430571;
 }
 
-.white-text {
+.white-text,
+.content-link-w {
+  color: white;
+}
+
+.content-link-w:focus,
+.content-link-w:hover,
+.content-link-w:active {
+  color: #810d70;
+}
+
+.content-link-p {
+  color: #430571;
+}
+
+.content-link-p:focus,
+.content-link-p:hover,
+.content-link-p:active {
   color: white;
 }
 

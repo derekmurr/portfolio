@@ -9,7 +9,24 @@ body {
   color: $banner-dark-purple;
 }
 
-.white-text {
+.white-text,
+.content-link-w {
+  color: white;
+}
+
+.content-link-w:focus,
+.content-link-w:hover,
+.content-link-w:active {
+  color: $banner-light-purple;
+}
+
+.content-link-p {
+  color: $banner-dark-purple;
+}
+
+.content-link-p:focus,
+.content-link-p:hover,
+.content-link-p:active {
   color: white;
 }
 
