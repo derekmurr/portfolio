@@ -256,7 +256,8 @@ h4 {
 p {
   margin: 0 0 1.5rem 0;
   font-size: 1.2rem;
-  line-height: 1.5;
+  letter-spacing: 0.3px;
+  line-height: 1.6;
 }
 
 footer p {
@@ -351,6 +352,7 @@ button {
   margin: .5rem 2rem 1rem 0;
   float: left;
   width: 20vw;
+  max-width: 300px;
 }
 
 .half-grid {
@@ -732,7 +734,7 @@ button {
   }
   .wrapper {
     width: 100%;
-    padding: 1rem 4rem;
+    padding: 1rem 2.5rem;
   }
   .topline-wrapper {
     -webkit-box-orient: vertical;
@@ -802,7 +804,7 @@ button {
 
 @media (max-width: 400px) {
   .wrapper {
-    padding: 1rem 2.5rem;
+    padding: 1rem 2rem;
   }
   .topline-wrapper {
     -webkit-box-orient: horizontal;
