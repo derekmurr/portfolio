@@ -50,16 +50,20 @@ button {
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
   margin: 1rem 0 0 4rem;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+  text-decoration: underline;
+  text-decoration-color: transparent;
 }
 
 .main-nav a:hover,
 .main-nav a:focus {
   color: $banner-light-purple;
-  text-decoration: underline;
+  text-decoration-color: $banner-light-purple;
 }
 
 .main-nav a:active {
   color: $banner-dark-purple;
+  text-decoration-color: $banner-dark-purple;
 }
 
 .intro-headshot {
@@ -174,6 +178,7 @@ button {
   text-decoration: none;
   font-size: 2rem;
   color: #ffffff;
+  transition: color 0.3s ease;
 }
 
 .social-links a:hover,

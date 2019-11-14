@@ -190,6 +190,16 @@ img {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 /* Color Theme Swatches in RGBA */
 body {
   margin: 0;
@@ -205,6 +215,20 @@ body {
 .white-text,
 .content-link-w {
   color: white;
+}
+
+a.white-text {
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+a.white-text:hover,
+a.white-text:focus {
+  color: #430571;
+}
+
+a.white-text:active {
+  color: #810d70;
 }
 
 .content-link-w:focus,
@@ -336,16 +360,26 @@ button {
   text-decoration: none;
   color: black;
   margin: 1rem 0 0 4rem;
+  -webkit-transition: color 0.3s ease, -webkit-text-decoration-color 0.3s ease;
+  transition: color 0.3s ease, -webkit-text-decoration-color 0.3s ease;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease, -webkit-text-decoration-color 0.3s ease;
+  text-decoration: underline;
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
 }
 
 .main-nav a:hover,
 .main-nav a:focus {
   color: #810d70;
-  text-decoration: underline;
+  -webkit-text-decoration-color: #810d70;
+          text-decoration-color: #810d70;
 }
 
 .main-nav a:active {
   color: #430571;
+  -webkit-text-decoration-color: #430571;
+          text-decoration-color: #430571;
 }
 
 .intro-headshot {
@@ -484,6 +518,8 @@ button {
   text-decoration: none;
   font-size: 2rem;
   color: #ffffff;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .social-links a:hover,

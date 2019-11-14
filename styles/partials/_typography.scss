@@ -14,6 +14,17 @@ body {
   color: white;
 }
 
+a.white-text {
+  transition: color 0.3s ease;
+}
+a.white-text:hover,
+a.white-text:focus {
+  color: $banner-dark-purple;
+}
+a.white-text:active {
+  color: $banner-light-purple;
+}
+
 .content-link-w:focus,
 .content-link-w:hover,
 .content-link-w:active {
