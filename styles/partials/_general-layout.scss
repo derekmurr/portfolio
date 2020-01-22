@@ -79,7 +79,7 @@ button {
 }
 
 .social-block,
-.contact-form {
+.contact-info {
   flex-basis: 47.5%;
 }
 
@@ -191,68 +191,68 @@ button {
   color: $banner-light-purple;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-  margin: 2rem 0 0;
-}
+// .contact-form {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   padding: 0;
+//   margin: 2rem 0 0;
+// }
 
-.form-input,
-.form-message {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  border: 2px solid rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 8px;
-  padding: .75em;
-  color: rgba(255, 255, 255, 1);
-  font-size: .95rem;
-}
+// .form-input,
+// .form-message {
+//   -moz-appearance: none;
+//   -webkit-appearance: none;
+//   appearance: none;
+//   width: 100%;
+//   border: 2px solid rgba(255, 255, 255, 0.7);
+//   background-color: rgba(255, 255, 255, 0);
+//   border-radius: 8px;
+//   padding: .75em;
+//   color: rgba(255, 255, 255, 1);
+//   font-size: .95rem;
+// }
 
-.form-input:hover,
-.form-input:focus,
-.form-message:hover,
-.form-message:focus {
-  border: 2px solid $banner-dark-purple;
-}
+// .form-input:hover,
+// .form-input:focus,
+// .form-message:hover,
+// .form-message:focus {
+//   border: 2px solid $banner-dark-purple;
+// }
 
-.form-message {
-  height: 8rem;
-}
+// .form-message {
+//   height: 8rem;
+// }
 
-.form-input-label,
-.form-message-label {
-  color: #ffffff;
-  margin: 0.5rem 0 1.5rem;
-  font-size: 1rem;
-  letter-spacing: 0.5px;
-}
+// .form-input-label,
+// .form-message-label {
+//   color: #ffffff;
+//   margin: 0.5rem 0 1.5rem;
+//   font-size: 1rem;
+//   letter-spacing: 0.5px;
+// }
 
-.form-button {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  display: inline-block;
-  padding: 0.25em .75em;
-  text-align: center;
-  border-radius: 8px;
-  border: none;
-  background-color: rgba(255, 255, 255, 1);
-  color: $banner-teal;
-  font-family: 'Bree Serif', serif;
-  font-size: 1.2rem;
-}
+// .form-button {
+//   -moz-appearance: none;
+//   -webkit-appearance: none;
+//   appearance: none;
+//   display: inline-block;
+//   padding: 0.25em .75em;
+//   text-align: center;
+//   border-radius: 8px;
+//   border: none;
+//   background-color: rgba(255, 255, 255, 1);
+//   color: $banner-teal;
+//   font-family: 'Bree Serif', serif;
+//   font-size: 1.2rem;
+// }
 
-.form-button:hover,
-.form-button:focus {
-  background-color: $banner-dark-purple;
-  color: rgba(255, 255, 255, 1);
-}
+// .form-button:hover,
+// .form-button:focus {
+//   background-color: $banner-dark-purple;
+//   color: rgba(255, 255, 255, 1);
+// }
 
-.form-button:active {
-  background-color: $banner-light-purple;
-}
+// .form-button:active {
+//   background-color: $banner-light-purple;
+// }
